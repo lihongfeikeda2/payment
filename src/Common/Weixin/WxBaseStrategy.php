@@ -89,6 +89,7 @@ abstract class WxBaseStrategy implements BaseStrategy
         }
 
         $body = $response->getBody()->getContents();
+
         // 格式化为数组
         $retData = DataParser::toArray($body);
         if (strtoupper($retData['return_code']) != 'SUCCESS') {

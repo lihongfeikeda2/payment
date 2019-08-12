@@ -47,6 +47,7 @@ class BarChargeData extends ChargeBaseData
             'operator_id' => $this->operator_id,
             'store_id' => $this->store_id,
             'terminal_id' => $this->terminal_id,
+            'app_auth_token'=> $this->app_auth_token,
         ];
 
         $timeExpire = $this->timeout_express;

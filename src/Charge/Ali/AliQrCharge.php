@@ -46,7 +46,7 @@ class AliQrCharge extends AliBaseStrategy
 
         // 检查是否报错
         if ($data['code'] !== '10000') {
-            throw new PayException($data['sub_msg']);
+            new PayException($data['sub_msg']);
         }
 
         return $data['qr_code'];

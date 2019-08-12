@@ -83,6 +83,7 @@ abstract class AliBaseData extends BaseData
             'timestamp'     => $this->timestamp,
             'version'       => $this->version,
             'notify_url'    => $this->notifyUrl,
+            'app_auth_token'=> $this->app_auth_token,
 
             // 业务参数
             'biz_content'   => json_encode($bizContent, JSON_UNESCAPED_UNICODE),

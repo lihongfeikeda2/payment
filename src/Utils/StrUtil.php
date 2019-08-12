@@ -86,9 +86,11 @@ class StrUtil
             $beginStr = '-----BEGIN PUBLIC KEY-----';
             $endStr = '-----END PUBLIC KEY-----';
         }
+        $keyStr = str_replace($beginStr, '', $keyStr);
+        $keyStr = str_replace($endStr, '', $keyStr);
 
-        $rsaKey = chunk_split(base64_encode($keyStr), 64, "\n");
-        $rsaKey = $beginStr . PHP_EOL . $keyStr . PHP_EOL . $endStr;
+        $rsaKey = chunk_split($keyStr, 64, PHP_EOL);
+        $rsaKey = $beginStr . PHP_EOL . $rsaKey . $endStr;
 
         return $rsaKey;
     }

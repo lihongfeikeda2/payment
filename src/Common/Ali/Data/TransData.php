@@ -73,6 +73,7 @@ class TransData extends AliBaseData
             'payer_real_name'    => $this->payer_real_name,
             'payee_real_name'          => $this->payee_real_name,
             'remark'       => $this->remark,
+            'app_auth_token'=> $this->app_auth_token,
         ];
 
         return $content;
