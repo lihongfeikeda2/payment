@@ -115,21 +115,12 @@ composer update
 ```
 ----
 
-# 联系&打赏 #
-
-感谢朋友们的支持：[支持名单](SUPPORT.md)
+# 联系 #
 
 <div style="margin:0 auto;">
-    <p align="center" style="margin:0px;"><img src="https://dayutalk.cn/img/mp-qrcode.jpg"></p>
-    <p align="center" style="margin:0px;">个人公众号：<b>dayuTalk</b></p>
-    <p align="center" style="margin:0px;">联系邮箱：dayugog@gmail.com</p>
-    <p align="center" style="margin:0px;">GitHub：<a href="https://github.com/helei112g">https://github.com/helei112g</a></p>
-    <p align="center" style="margin:0px;"><img width="500" src="https://dayutalk.cn/img/pay-qr.jpeg"></p>
-    <p align="center" style="margin:0px;"><b>我写我的，你赏你的</b></p>
+    <p align="center" style="margin:0px;">联系邮箱：244096512@qq.com</p>
+    <p align="center" style="margin:0px;">GitHub：<a href="https://github.com/lihongfei">https://github.com/lihongfei</a></p>
 </div>
-
-# Contribution #
-[Contribution Guide](CONTRIBUTING.md)
 
 # License #
 
